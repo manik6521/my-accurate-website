@@ -26,9 +26,7 @@ h2{
 .text-area img{
     width: 100%;
 }
-.name{
-    color: orange;
-}
+.name{background-color: #ffc41e9e;-webkit-background-clip: text;}
 .text-area p {
     font-size: 16px;
     padding-top: 23px;
@@ -50,4 +48,60 @@ a.link-button {
     width: 93px;
     margin-top: 26px;
     border-radius: 13px;
+}
+h2.title {
+    color: black;
+    -webkit-text-fill-color: #231f1f;
+    padding-bottom: 18px;
+}
+#helf-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    overflow: hidden;
+}
+div#helf-text-box-1 {
+    background: white;
+    margin-left: 90px;
+    margin-bottom:50px;
+    padding: 44px;
+    box-shadow: 3px 5px 14px 0px;
+    border-left: 9px solid gold;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+div#helf-text-box-2{
+    background: white;
+    margin-left: 90px;
+    margin-bottom:50px;
+    padding: 44px;
+    box-shadow: 3px 5px 14px 0px;
+    border-left: 9px solid #2a68d0;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+p.my-title {
+    color: orange;
+    line-height: 1;
+}
+p.description {
+    padding-bottom: 32px;
+}
+article.exparience {
+    overflow: hidden;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: #fff;
+    padding: 10px;
+}
+footer h3 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
 }
