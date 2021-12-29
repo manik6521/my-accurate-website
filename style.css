@@ -15,7 +15,8 @@ h2{
 .hero-area{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-   overflow: hidden;
+    overflow: hidden;
+    padding: 0px 106px;
 }
 .text-area {
     width: 40%;
